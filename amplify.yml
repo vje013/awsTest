@@ -15,8 +15,3 @@ frontend:
     paths:
       - .npm/**/*
       - node_modules/**/*
-backend:
-  phases:
-    build:
-      commands:
-        - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
